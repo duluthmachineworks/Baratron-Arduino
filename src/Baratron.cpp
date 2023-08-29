@@ -1,5 +1,5 @@
 // Baratron.cpp
-
+#include "Arduino.h"
 #include "Baratron.h"
 
 // Create a Baratron object, with user input.
