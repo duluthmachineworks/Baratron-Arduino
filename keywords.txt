@@ -1,0 +1,22 @@
+#######################################
+# Baratron Pressure Manometer Gauge
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Baratron	KEYWORD1	Baratron
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setMaxPSI	KEYWORD2
+updateBaro	KEYWORD2
+readAbsolute	KEYWORD2
+readGauge	KEYWORD2
+getRawVoltage	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
