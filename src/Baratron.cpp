@@ -59,3 +59,13 @@ float Baratron::readGauge() {
 float Baratron::getRawVoltage() {
   return analogRead(gaugePin) * (5.0 / 1023.0);
 }
+
+//Check to see if the Baratron is active and connected
+bool Baratron::isConnected() {
+  int reading = analogRead(gaugePin);
+  if (reading > 5) { //looks for value above noise level
+    return true;
+  } else {
+    return false;
+  }
+}

@@ -25,7 +25,11 @@
 * rating). With Baratron gauges, as well as most capacitance manometers,
 * 0v = 0psia, 5v=max psia. Yes, this means that gauges must be zeroed to a hard
 * vacuum.
+*
+* Tested with a MKS 870B-24365 gauge on an Adafruit itsybitsy32u4_5V.
+*
  ****************************************************************************/
+
 #include "Arduino.h"
 #ifndef Baratron_h
 #define Baratron_h
@@ -50,6 +54,7 @@ public:
   float readAbsolute();      // Reads absolute pressure in PSI
   float readGauge();         // Reads gauge pressure in PSI
   float getRawVoltage();     // Reads raw gauge voltage for testing purposes
+  bool isConnected();  // Returns true if the Baratron is connected and reading a voltage
 };
 
 #endif
