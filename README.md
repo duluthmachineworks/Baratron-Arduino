@@ -1,5 +1,5 @@
 # Baratron-Arduino
-## A simple Arduino library to read pressure data from MKS Baratron capacitance manometers
+A simple Arduino library to read pressure data from MKS Baratron capacitance manometers
 
 ## Purpose and Applicability
 This library was intended to interface specifically with the MKS Baratron micro capacitance manometers, which are high quality pressure transducers intended for accurate measurement of a wide range of pressures. These sensors can often be obtained on the surplus market for a reasonable cost, and provide exceptional quality for the price.
@@ -29,3 +29,18 @@ This is then initialized in the main sketch like so:
 ```
 Baratron gauge1(A0, 250); // initializes a Baratron object gauge1, with an analog pin of A0 and max pressure rating of 250psia
 ```
+### Reading the Gauge
+The gauge can be read by the below functions:
+
+```
+float readAbsolute();      // Reads absolute pressure in PSI
+float readGauge();         // Reads gauge pressure in PSI
+float getRawVoltage();     // Reads raw gauge voltage for testing purposes
+```
+
+To see how these are implemented in a sketch, use the example sketch as a guide.
+
+## Physical Wiring and Hookup
+Section TBD. See MKS instruction manual in docs folder for more info.
+
+## 
