@@ -3,7 +3,7 @@
 #include "Baratron.h"
 
 // Create a Baratron object, with user input.
-Baratron::Baratron(uint8_t pin, int PSI, float baro = 29.9212, int readnum = 20) {
+Baratron::Baratron(uint8_t pin, int PSI, float baro, int readnum) {
   gaugePin = pin;
   maxPSI = PSI;
   barometricPressure = baro;
