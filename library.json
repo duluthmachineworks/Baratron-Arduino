@@ -21,6 +21,11 @@
     "dependencies": {
       
     },
-    "frameworks": "*",
-    "platforms": "*"
+    "frameworks": "arduino",
+    "platforms": 
+    [
+      "atmelavr",
+      "espressif8266",
+      "espressif32"
+    ]
   }
