@@ -16,7 +16,7 @@
         "url": "https://www.duluthmachineworks.com"
       }
     ],
-    "license": "GNU",
+    "license": "GPL-2.0-or-later",
     "homepage": "https://www.duluthmachineworks.com",
     "dependencies": {
       
