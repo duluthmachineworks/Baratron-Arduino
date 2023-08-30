@@ -1,0 +1,26 @@
+{
+    "name": "Baratron-Arduino",
+    "version": "1.2.1",
+    "description": "A simple library to read pressure data from MKS Baratron capacitance manometers",
+    "keywords": "pressure, transducer, pressure-gauge, sensor",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/duluthmachineworks/Baratron-Arduino"
+    },
+    "authors":
+    [
+      {
+        "name": "Chris Lee",
+        "email": "chris@duluthmachineworks.com",
+        "url": "https://www.duluthmachineworks.com"
+      }
+    ],
+    "license": "GNU",
+    "homepage": "https://www.duluthmachineworks.com",
+    "dependencies": {
+      
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
