@@ -21,6 +21,7 @@ void Baratron::updateBaro(int baro) { barometricPressure = baro; }
 float Baratron::readAbsolute() {
   // Some internal variables used for sensor reading averaging
   int total = 0;
+  int readings[numReadings];
   // Initializes all readings as zero, set our index to zero
 
   for (int thisReading = 0; thisReading < numReadings; thisReading++) {

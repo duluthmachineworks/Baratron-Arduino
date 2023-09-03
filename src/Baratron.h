@@ -44,7 +44,6 @@ private:
   float gaugePSIa;          // Absolute pressure read from gauge
   float gaugePSIg;          // Gauge pressure, i.e absolute-atmospheric pressure
   int numReadings = 20; // The number of readings to average every read function
-  int readings[];
 
 public:
   // Create the Baratron object
